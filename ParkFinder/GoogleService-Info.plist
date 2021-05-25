@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>263981174690-n4fm82qn4q2iomnvc69ngaetgb7flur2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.263981174690-n4fm82qn4q2iomnvc69ngaetgb7flur2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCeAedaghbpBptyBU55Y0ClHno0JzeuM_c</string>
+	<key>GCM_SENDER_ID</key>
+	<string>263981174690</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.leonardbox.ParkFinder</string>
+	<key>PROJECT_ID</key>
+	<string>parkfinder-7659d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>parkfinder-7659d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:263981174690:ios:1a04b38a1e9837882aacfb</string>
+</dict>
+</plist>
