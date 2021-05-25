@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		758A746D748ECFC11DFBED22 /* Pods_ParkFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3D9C6767FC5A2D61AFA51C /* Pods_ParkFinder.framework */; };
+		B804BAFF265D4B5A0093E50A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B804BAFE265D4B5A0093E50A /* AppDelegate.swift */; };
 		B862F822265C416800D41052 /* ParkFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862F821265C416800D41052 /* ParkFinderApp.swift */; };
-		B862F824265C416800D41052 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862F823265C416800D41052 /* ContentView.swift */; };
 		B862F826265C416900D41052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B862F825265C416900D41052 /* Assets.xcassets */; };
 		B862F829265C416900D41052 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B862F828265C416900D41052 /* Preview Assets.xcassets */; };
 		B862F82B265C416900D41052 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862F82A265C416900D41052 /* Persistence.swift */; };
 		B862F82E265C416900D41052 /* ParkFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B862F82C265C416900D41052 /* ParkFinder.xcdatamodeld */; };
+		B862F83B265C41F900D41052 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862F83A265C41F900D41052 /* AuthView.swift */; };
+		B862F83D265C422300D41052 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862F83C265C422300D41052 /* SignInView.swift */; };
+		B862F83F265C423800D41052 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862F83E265C423800D41052 /* SignUpView.swift */; };
+		B862F841265C425700D41052 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B862F840265C425700D41052 /* HomeView.swift */; };
+		B86B5EF5265D53C0002CAC3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B86B5EF4265D53C0002CAC3F /* GoogleService-Info.plist */; };
+		B86B5EF7265D6D41002CAC3F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86B5EF6265D6D41002CAC3F /* UserModel.swift */; };
+		B86B5EFA265D72D3002CAC3F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86B5EF9265D72D3002CAC3F /* Extensions.swift */; };
+		B8A51DB2265C98C4004829B5 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A51DB1265C98C4004829B5 /* AuthViewModel.swift */; };
+		B8A51DB4265C98E0004829B5 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A51DB3265C98E0004829B5 /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6078576E6EBC85DC12D7C619 /* Pods-ParkFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkFinder.release.xcconfig"; path = "Target Support Files/Pods-ParkFinder/Pods-ParkFinder.release.xcconfig"; sourceTree = "<group>"; };
+		B804BAFE265D4B5A0093E50A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B862F81E265C416800D41052 /* ParkFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B862F821265C416800D41052 /* ParkFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkFinderApp.swift; sourceTree = "<group>"; };
-		B862F823265C416800D41052 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B862F825265C416900D41052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B862F828265C416900D41052 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B862F82A265C416900D41052 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B862F82D265C416900D41052 /* ParkFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParkFinder.xcdatamodel; sourceTree = "<group>"; };
 		B862F82F265C416900D41052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B862F83A265C41F900D41052 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		B862F83C265C422300D41052 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		B862F83E265C423800D41052 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B862F840265C425700D41052 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B86B5EF4265D53C0002CAC3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B86B5EF6265D6D41002CAC3F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B86B5EF9265D72D3002CAC3F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B8A51DB1265C98C4004829B5 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		B8A51DB3265C98E0004829B5 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		CBB40B5C55CE6494AF6963BE /* Pods-ParkFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkFinder.debug.xcconfig"; path = "Target Support Files/Pods-ParkFinder/Pods-ParkFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		EF3D9C6767FC5A2D61AFA51C /* Pods_ParkFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758A746D748ECFC11DFBED22 /* Pods_ParkFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EE9239C270D1766C7487162 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF3D9C6767FC5A2D61AFA51C /* Pods_ParkFinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C9552F44460B062DA1A367A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBB40B5C55CE6494AF6963BE /* Pods-ParkFinder.debug.xcconfig */,
+				6078576E6EBC85DC12D7C619 /* Pods-ParkFinder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B862F815265C416800D41052 = {
 			isa = PBXGroup;
 			children = (
 				B862F820265C416800D41052 /* ParkFinder */,
 				B862F81F265C416800D41052 /* Products */,
+				9C9552F44460B062DA1A367A /* Pods */,
+				0EE9239C270D1766C7487162 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +98,14 @@
 		B862F820265C416800D41052 /* ParkFinder */ = {
 			isa = PBXGroup;
 			children = (
-				B862F821265C416800D41052 /* ParkFinderApp.swift */,
-				B862F823265C416800D41052 /* ContentView.swift */,
+				B862F838265C41B700D41052 /* App */,
+				B862F835265C418600D41052 /* Models */,
+				B862F836265C418F00D41052 /* Views */,
+				B862F837265C41A100D41052 /* Model Views */,
+				B86B5EF8265D72AC002CAC3F /* Utilities */,
 				B862F825265C416900D41052 /* Assets.xcassets */,
 				B862F82A265C416900D41052 /* Persistence.swift */,
+				B86B5EF4265D53C0002CAC3F /* GoogleService-Info.plist */,
 				B862F82F265C416900D41052 /* Info.plist */,
 				B862F82C265C416900D41052 /* ParkFinder.xcdatamodeld */,
 				B862F827265C416900D41052 /* Preview Content */,
@@ -75,6 +121,59 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B862F835265C418600D41052 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B86B5EF6265D6D41002CAC3F /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B862F836265C418F00D41052 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8A51DB3265C98E0004829B5 /* SplashView.swift */,
+				B862F83A265C41F900D41052 /* AuthView.swift */,
+				B862F83C265C422300D41052 /* SignInView.swift */,
+				B862F83E265C423800D41052 /* SignUpView.swift */,
+				B862F840265C425700D41052 /* HomeView.swift */,
+				B862F839265C41CD00D41052 /* Supporting Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B862F837265C41A100D41052 /* Model Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8A51DB1265C98C4004829B5 /* AuthViewModel.swift */,
+			);
+			path = "Model Views";
+			sourceTree = "<group>";
+		};
+		B862F838265C41B700D41052 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B804BAFE265D4B5A0093E50A /* AppDelegate.swift */,
+				B862F821265C416800D41052 /* ParkFinderApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B862F839265C41CD00D41052 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		B86B5EF8265D72AC002CAC3F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B86B5EF9265D72D3002CAC3F /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B862F832265C416900D41052 /* Build configuration list for PBXNativeTarget "ParkFinder" */;
 			buildPhases = (
+				216ABDCDB98748503BB264E5 /* [CP] Check Pods Manifest.lock */,
 				B862F81A265C416800D41052 /* Sources */,
 				B862F81B265C416800D41052 /* Frameworks */,
 				B862F81C265C416800D41052 /* Resources */,
+				007F81ED9E3DEF22369DE5C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,20 +235,71 @@
 			files = (
 				B862F829265C416900D41052 /* Preview Assets.xcassets in Resources */,
 				B862F826265C416900D41052 /* Assets.xcassets in Resources */,
+				B86B5EF5265D53C0002CAC3F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		007F81ED9E3DEF22369DE5C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkFinder/Pods-ParkFinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkFinder/Pods-ParkFinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParkFinder/Pods-ParkFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		216ABDCDB98748503BB264E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParkFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B862F81A265C416800D41052 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B862F83F265C423800D41052 /* SignUpView.swift in Sources */,
+				B862F83D265C422300D41052 /* SignInView.swift in Sources */,
 				B862F82B265C416900D41052 /* Persistence.swift in Sources */,
+				B862F83B265C41F900D41052 /* AuthView.swift in Sources */,
 				B862F82E265C416900D41052 /* ParkFinder.xcdatamodeld in Sources */,
-				B862F824265C416800D41052 /* ContentView.swift in Sources */,
+				B862F841265C425700D41052 /* HomeView.swift in Sources */,
+				B8A51DB4265C98E0004829B5 /* SplashView.swift in Sources */,
+				B86B5EFA265D72D3002CAC3F /* Extensions.swift in Sources */,
 				B862F822265C416800D41052 /* ParkFinderApp.swift in Sources */,
+				B804BAFF265D4B5A0093E50A /* AppDelegate.swift in Sources */,
+				B8A51DB2265C98C4004829B5 /* AuthViewModel.swift in Sources */,
+				B86B5EF7265D6D41002CAC3F /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +424,7 @@
 		};
 		B862F833265C416900D41052 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB40B5C55CE6494AF6963BE /* Pods-ParkFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +447,7 @@
 		};
 		B862F834265C416900D41052 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6078576E6EBC85DC12D7C619 /* Pods-ParkFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
