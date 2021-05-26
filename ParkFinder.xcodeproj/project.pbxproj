@@ -21,6 +21,7 @@
 		B86B5EF5265D53C0002CAC3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B86B5EF4265D53C0002CAC3F /* GoogleService-Info.plist */; };
 		B86B5EF7265D6D41002CAC3F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86B5EF6265D6D41002CAC3F /* UserModel.swift */; };
 		B86B5EFA265D72D3002CAC3F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86B5EF9265D72D3002CAC3F /* Extensions.swift */; };
+		B86B5EFE265D7779002CAC3F /* ParkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86B5EFD265D7779002CAC3F /* ParkModel.swift */; };
 		B8A51DB2265C98C4004829B5 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A51DB1265C98C4004829B5 /* AuthViewModel.swift */; };
 		B8A51DB4265C98E0004829B5 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A51DB3265C98E0004829B5 /* SplashView.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		B86B5EF4265D53C0002CAC3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B86B5EF6265D6D41002CAC3F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		B86B5EF9265D72D3002CAC3F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B86B5EFD265D7779002CAC3F /* ParkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkModel.swift; sourceTree = "<group>"; };
 		B8A51DB1265C98C4004829B5 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		B8A51DB3265C98E0004829B5 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		CBB40B5C55CE6494AF6963BE /* Pods-ParkFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkFinder.debug.xcconfig"; path = "Target Support Files/Pods-ParkFinder/Pods-ParkFinder.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				B86B5EF6265D6D41002CAC3F /* UserModel.swift */,
+				B86B5EFD265D7779002CAC3F /* ParkModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				B8A51DB4265C98E0004829B5 /* SplashView.swift in Sources */,
 				B86B5EFA265D72D3002CAC3F /* Extensions.swift in Sources */,
 				B862F822265C416800D41052 /* ParkFinderApp.swift in Sources */,
+				B86B5EFE265D7779002CAC3F /* ParkModel.swift in Sources */,
 				B804BAFF265D4B5A0093E50A /* AppDelegate.swift in Sources */,
 				B8A51DB2265C98C4004829B5 /* AuthViewModel.swift in Sources */,
 				B86B5EF7265D6D41002CAC3F /* UserModel.swift in Sources */,
