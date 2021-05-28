@@ -11,7 +11,7 @@ import FirebaseFirestore
 struct User: Encodable, Decodable {
     let username: String
     let email: String
-    let image: String
+    let profileImage: String
     let firstName: String
     let lastName: String
     let address: String

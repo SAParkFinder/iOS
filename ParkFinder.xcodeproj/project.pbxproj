@@ -22,6 +22,7 @@
 		B86B5EF7265D6D41002CAC3F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86B5EF6265D6D41002CAC3F /* UserModel.swift */; };
 		B86B5EFA265D72D3002CAC3F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86B5EF9265D72D3002CAC3F /* Extensions.swift */; };
 		B86B5EFE265D7779002CAC3F /* ParkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86B5EFD265D7779002CAC3F /* ParkModel.swift */; };
+		B86B5F00265EF965002CAC3F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86B5EFF265EF965002CAC3F /* ImagePicker.swift */; };
 		B8A51DB2265C98C4004829B5 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A51DB1265C98C4004829B5 /* AuthViewModel.swift */; };
 		B8A51DB4265C98E0004829B5 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A51DB3265C98E0004829B5 /* SplashView.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +45,7 @@
 		B86B5EF6265D6D41002CAC3F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		B86B5EF9265D72D3002CAC3F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B86B5EFD265D7779002CAC3F /* ParkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkModel.swift; sourceTree = "<group>"; };
+		B86B5EFF265EF965002CAC3F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		B8A51DB1265C98C4004829B5 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		B8A51DB3265C98E0004829B5 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		CBB40B5C55CE6494AF6963BE /* Pods-ParkFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkFinder.debug.xcconfig"; path = "Target Support Files/Pods-ParkFinder/Pods-ParkFinder.debug.xcconfig"; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				B86B5EF9265D72D3002CAC3F /* Extensions.swift */,
+				B86B5EFF265EF965002CAC3F /* ImagePicker.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				B862F83F265C423800D41052 /* SignUpView.swift in Sources */,
 				B862F83D265C422300D41052 /* SignInView.swift in Sources */,
 				B862F82B265C416900D41052 /* Persistence.swift in Sources */,
+				B86B5F00265EF965002CAC3F /* ImagePicker.swift in Sources */,
 				B862F83B265C41F900D41052 /* AuthView.swift in Sources */,
 				B862F82E265C416900D41052 /* ParkFinder.xcdatamodeld in Sources */,
 				B862F841265C425700D41052 /* HomeView.swift in Sources */,

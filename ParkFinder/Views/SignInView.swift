@@ -9,8 +9,8 @@ import SwiftUI
 import FirebaseAuth
 
 struct SignInView: View {
-    @State var email = ""
-    @State var password = ""
+    @State private var email = ""
+    @State private var password = ""
     
     @EnvironmentObject var viewModel: AuthViewModel
     
@@ -46,8 +46,12 @@ struct SignInView: View {
                             .cornerRadius(8)
                             .background(Color.green)
                     })
-                    NavigationLink("Create Account", destination: SignUpView())
-                        .padding()
+                    HStack {
+                        Text("New user?")
+                        NavigationLink("Create Account", destination: SignUpView())
+                            .padding()
+                            .foregroundColor(.black)
+                    }
                 }
                 .padding()
                 Spacer()
