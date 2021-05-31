@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @EnvironmentObject var viewModel: AuthViewModel
+    
     var body: some View {
+        VStack {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Button(action: {
+                viewModel.signedIn = false
+            }, label: {
+                Text("Sign Out")
+                    .foregroundColor(Color.white)
+                    .frame(width: 200, height: 50)
+                    .cornerRadius(8)
+                    .background(Color.green)
+            })
+        }
+        Spacer()
     }
 }
 

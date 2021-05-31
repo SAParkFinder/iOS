@@ -16,8 +16,10 @@ struct AuthView: View {
         NavigationView {
             if viewModel.signedIn {
                 HomeView()
+                Spacer()
             } else {
                 SignInView()
+                Spacer()
             }
         }
         .onAppear {

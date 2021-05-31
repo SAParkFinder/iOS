@@ -40,13 +40,14 @@ struct SignUpView: View {
                 if profileImage != nil {
                     profileImage!.resizable()
                         .clipShape(Circle())
-                        .frame(width: 300, height: 300)
+                        .frame(width: 150, height: 150)
                         .padding(.top, 20)
                         .onTapGesture {
                             self.showActionSheet = true
                         }
                 } else {
-                    Image(systemName: "person.circle.fill")
+                    Image(systemName: "contacts.unfill")
+                        .imageScale(.large)
                         .clipShape(Circle())
                         .frame(width: 300, height: 300)
                         .padding(.top, 20)
@@ -113,6 +114,7 @@ struct SignUpView: View {
                 .cancel()
             ])
         }
+        Spacer()
     }
 }
 
